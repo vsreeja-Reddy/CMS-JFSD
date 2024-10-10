@@ -1,0 +1,40 @@
+/* Assignments Section */
+.assignments-section {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assignments-section h3 {
+    font-size: 20px;
+    color: #34495e;
+    margin-bottom: 15px;
+  }
+  
+  .assignments-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .assignments-table th,
+  .assignments-table td {
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .assignments-table th {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+  }
+  
+  .assignments-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .assignments-table tr:hover {
+    background-color: #eaeaea;
+  }
+  

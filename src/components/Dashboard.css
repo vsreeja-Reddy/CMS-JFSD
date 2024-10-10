@@ -1,0 +1,92 @@
+.dashboard-container {
+  display: flex;
+  background-color: #f0f4f8;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #002855;
+  color: #fff;
+  padding: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-icon {
+  font-size: 80px; /* Adjust the size of the profile icon */
+  color: #2c3e50;
+  margin-bottom: 10px; /* Space between icon and name */
+}
+
+
+.user-name, .user-id {
+  margin: 5px 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 20px 0;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.courses img {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+
+.course-details {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of course details */
+  justify-content: space-around;
+  margin-top: 5px;
+}
+
+.course {
+  background-color: #002855;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px; /* Add margin to create space between course details */
+  flex: 0 1 calc(30% - 20px); /* Adjusts width and keeps spacing */
+  box-sizing: border-box; /* Ensures padding and margin are included in total width */
+}
+
+.progress-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.progress-box {
+  background-color: #002855;
+  color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.notifications {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
